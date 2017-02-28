@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:id="@+id/dialog_new_pwd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Password"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
+        android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
+        android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
+        android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+        android:paddingBottom="@dimen/login_edittext_vertical_margin"
+        android:layout_margin="@dimen/login_edittext_vertical_margin"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="New Password"
+        android:id="@+id/new_pwd"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:hint="Confirm New Password"
+            android:id="@+id/confirm_new_pwd"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:gravity="center"
+            android:layout_margin="@dimen/login_edittext_vertical_margin"
+            style="@style/Buttonstyle"
+            android:layout_marginBottom="@dimen/login_edittext_vertical_margin"
+            android:layout_marginRight="@dimen/login_edittext_horizontal_margin"
+            android:layout_marginLeft="@dimen/login_edittext_horizontal_margin"
+            android:layout_marginTop="@dimen/login_edittext_vertical_margin"
+            android:id="@+id/new_pwd_submit" />
+    </LinearLayout>
+</LinearLayout>
